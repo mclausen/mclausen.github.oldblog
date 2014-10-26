@@ -1,0 +1,14 @@
+# Site settings
+title: Tales of a junior developer
+email: martinh.c@me.com
+description: > # this means to ignore newlines until "baseurl:"
+ Super cool developer dude, with so much to learn about software developement,
+ practices and patterns and how to survive within IT. On this blog I share my experiences, 
+ mistakes and insights that you might benefit from.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mclausen.github.io" # the base hostname & protocol for your site
+twitter_username: martinhc
+github_username:  mclausen
+
+# Build settings
+markdown: kramdown
