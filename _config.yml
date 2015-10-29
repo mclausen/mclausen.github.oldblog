@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            "Hi, iam Martin and I am a developer"
 locale:           en_US
 url:
 
@@ -14,7 +14,7 @@ sass:
   sass_dir: _sass
   style: compressed
 gems:
-  - jekyll-sitemap
+  - jekyll-sitemapc
 
 kramdown:
   auto_ids: true
@@ -41,7 +41,7 @@ owner:
     ad-slot:
   bing-verify:
   github: mclausen
-  stackoverflow: 608966/martin-clausen  from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 608966/martin-clausen
   linkedin: martinhc
   xing: #username
   instagram: #username
