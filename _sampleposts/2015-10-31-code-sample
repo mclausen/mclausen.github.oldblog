@@ -1,0 +1,14 @@
+{% highlight csharp linenos %}
+public static IPublishDomainEvent Current
+        {
+            get { return _current; }
+            set
+            {
+                if(value == null)
+                    throw new ArgumentNullException("Cannot set current event publisher to null");
+
+                _current = value;
+            }
+        }
+
+{% endhighlight %}

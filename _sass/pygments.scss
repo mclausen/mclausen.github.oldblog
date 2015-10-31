@@ -9,12 +9,8 @@
 	color: #333332;
 	margin-bottom: 1.5em;
 	@include rounded(4px);
-	pre {
-		position: relative;
-		margin: 0;
-		padding: 1em;
-	}
-	.lineno { padding-right: 24px; color: lighten(#333332,50);}
+	pre { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+	.lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
 	.hll { background-color: #ffffcc }
 	.c { color: #999988; font-style: italic } /* Comment */
 	.err { color: #a61717; background-color: #e3d2d2 } /* Error */
