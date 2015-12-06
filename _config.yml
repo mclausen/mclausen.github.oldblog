@@ -2,7 +2,7 @@
 
 title:            "Hi, iam Martin and I am a developer"
 locale:           en_US
-url:
+url:              http://martinhclausen.com/
 
 
 # Jekyll configuration
@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Martin Humlund Clausen
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "Entropy fighting codeslinger by day, Crossfitter by night"
   email: martinh.c@me.com
   disqus-shortname:
   twitter: martinhc
