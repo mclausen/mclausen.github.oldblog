@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Implementing DDD: Part 2 - Solution architecture"
+title: "Implementing DDD: Part 2 - Project and references"
 excerpt: "Getting it right from the start!"
 tags: [Domain Driven Design, Architecture, RavenDb]
 comments: true
