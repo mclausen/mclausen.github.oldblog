@@ -11,6 +11,8 @@ image:
 ---
 
 Hey there fellow developer! I assume
+
+<br />
 My name is Martin I'am a passionate developer an avid Crossfitter and a happy consumer of life! Iam always on the run, having 100 of things to do on a normal day, and like all people I tend to forget half i my accomplishments in the rush. Thats is why i started this blog. To have a place where I can share my findings and keep track of all the neat technical stuff i'll learn on my path to become a kick-ass developer. Iam pretty new to this so called blogging so feedback we'll be greatly appreciated :)
 
 <br />
