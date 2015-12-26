@@ -3,7 +3,7 @@ layout: post
 title: "Implementing DDD: Part 1 - The grand overview"
 excerpt: "I'll start by introducing a sample project in which we are going to design and implement the basic architecture for an application using DDD"
 tags: [Domain Driven Design, Architecture, RavenDb]
-comments: true
+comments: false
 ---
 
 # Introduction
