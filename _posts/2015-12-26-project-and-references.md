@@ -9,8 +9,10 @@ comments: true
 ##Creating a solid foundation
 So, you have decided you wanted to go down the DDD path, you have discovered a bounded context and want to start writing some code, however you havn't set up a solution yet, now where do you start?
 
+<br />
 First you can start by cloning my sample webservice here [https://github.com/mclausen/Raven.DDD.SampleWebservice](https://github.com/mclausen/Raven.DDD.SampleWebservice)
 
+<br />
 Go ahead and create an empty ASP.NET Web application and two class libraries the, and call them something like #Domain#.Webservice, #Domain#.Infrastructure and #Domain#.Core, and ofcouse substitude the #Domain# with your domain. Take a look on the picture below. The names are just examples.
 
 <figure class="half">
@@ -64,4 +66,5 @@ public class Global : System.Web.HttpApplication
     }
 {% endhighlight %}
 
+<br />
 Next we are going to hook up domain events! Stay tuned

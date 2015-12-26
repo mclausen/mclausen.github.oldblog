@@ -9,8 +9,10 @@ comments: false
 # Introduction
 Over the last couple of years I've been evolved in designing and implementing applications using domain driven design. I didnt come without a cost, but in the end we managed to find some pattern and a architectural style that helped us immensely.
 
+<br />
 Our focus for this series is to build the scaffolding serverside architecture, and paving way for developers stay focused on business objectives instead of [Yak shaving](http://www.hanselman.com/blog/YakShavingDefinedIllGetThatDoneAsSoonAsIShaveThisYak.aspx "Hanselsman's definition of yak shaving")
 
+<br />
 We are going to cover quite abit, so lets get started!
 
 ---
@@ -22,8 +24,10 @@ We start out by defining the the concepts in our architecture the buttom up
 2. Infrastructure  
 3. Host
 
+<br />
 These guys is the three layers in our Onion/hexagonal architectures where the infrastructure layer has a dependency on core, and host has a dependency on both Infrastructure and core.
 
+<br />
 This stack is ment to be pr. bounded context, where one application clearly defines in business area. This however can be scalled and it can work beatifully together in a destributed environment. We will be covering this as well, but we have stretch to go.
 
 <figure class="half">
@@ -31,6 +35,7 @@ This stack is ment to be pr. bounded context, where one application clearly defi
     <figcaption>Hexagonal architecture that we are going to build</figcaption>
 </figure>
 
+<br />
 We will cover all three layers extensively in the upcomming posts but here is a brief overview
 
 ## Core

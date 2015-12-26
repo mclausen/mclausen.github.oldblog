@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, responsive]
+title: About me
+tags: [C#, .NET, RavenDB, Domain Driven Design, DDD, Architecture, Tech, Programming]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
@@ -10,16 +10,16 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+Hey there fellow developer! I assume
+My name is Martin I'am a passionate developer an avid Crossfitter and a happy consumer of life! Iam always on the run, having 100 of things to do on a normal day, and like all people I tend to forget half i my accomplishments in the rush. Thats is why i started this blog. To have a place where I can share my findings and keep track of all the neat technical stuff i'll learn on my path to become a kick-ass developer. Iam pretty new to this so called blogging so feedback we'll be greatly appreciated :)
 
-## Minimal Mistakes is all about:
+<br />
+I've currently been practicing software development for around seven years and in that timespan I've come to cross alot of different ways planning and developing software. In the same timespan i managed to work as a freelancer, project based employment aswell as an consultant giving me some great experiences both personally and professionally and hopefully there a some solid advice in between the lines!
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+<br />
+Great things comes from hard work, and much of my out-of-office hours is spend in the gym, doing all sorts of crazy things from gymnastics to olympic weightlifting to enduring cardiovascular workouts. I am very much into having a healthy and balanced lifestyle, which gives me alot of energy and is a big part of my personal trait.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+<br />
+Lets me know what you think, and have a great day!
+<br />
+Martin Clausen
