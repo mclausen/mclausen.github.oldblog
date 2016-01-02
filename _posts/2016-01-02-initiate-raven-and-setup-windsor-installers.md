@@ -10,7 +10,7 @@ comments: true
 Castle Windsor have a neat feature called installers where we collect, register and configure our dependencies lifestyle. We can utilize installers to have a central place where initialize our connection to RavenDb.
 
 <br/>
-First thing we need is to tell Caste Windsor to look for installers in a given assemebly. We configured our container in `Global.axas`, so go ahead and add `Container.Install(FromAssembly.This());` just after we initialize our container.
+First thing we need is to tell Caste Windsor to look for installers in a given assemebly. We configured our container in `global.asax`, so go ahead and add `Container.Install(FromAssembly.This());` just after we initialize our container.
 
 <br/>
 Next we need to create our RavenDb Installer like the example below.
