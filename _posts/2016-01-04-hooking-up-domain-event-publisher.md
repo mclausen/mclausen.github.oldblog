@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Implementing DDD: Part 4 - Hooking up domain event publisher"
-excerpt: "Collecting events in a given context"
+title: "Implementing DDD: Part 4 - Collecting Domain events"
+excerpt: "Collecting Domain events in a unit of work "
 tags: [Domain Driven Design, Architecture, RavenDb]
 comments: true
 ---
 
-## Collecting events in a given context
+## Collecting Domain events in a unit of work 
 
 if you havn't already, go grab my sample application [https://github.com/mclausen/Raven.DDD.SampleWebservice](https://github.com/mclausen/Raven.DDD.SampleWebservice)
 
