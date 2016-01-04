@@ -11,7 +11,7 @@ comments: true
 if you havn't already, go grab my sample application [https://github.com/mclausen/Raven.DDD.SampleWebservice](https://github.com/mclausen/Raven.DDD.SampleWebservice)
 
 <br />
-Before we can use DomainEvents from our model we need to implement the `IPublishDomainEvent` interface provided by `RavenDb.DDD.Core` package. The idea is, that during our current unit of work, we'll pickup any domain event being thrown by the model, and then dispatch each event after the main work has been done. Our domain event could look like the sample below.
+Before we can use DomainEvents from our model we need to implement the `IPublishDomainEvent` interface provided by `RavenDb.DDD.Core` package. The idea is, that during our current unit of work, we'll pickup any domain event being thrown by the model, and then dispatch each event after the main work has been done. Our domain event publisher could look like the sample below.
 
 {% highlight csharp linenos %}
 public class OwinDomainEventPublisher : IPublishDomainEvent
