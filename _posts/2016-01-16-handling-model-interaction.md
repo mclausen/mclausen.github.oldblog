@@ -90,7 +90,7 @@ The `RavenApiController` is a custom ApiController that makes `CommandFactory<TI
 The last thing we'll do before returning OK, is executing our command.
 
 ## Creating the RavenApiController
-The implemetation for the our `RavenApiController`is pretty simple. Bassically what we do is that we are enabling the developer to resolve the requested command. However we need to pay attention to memory management. The rule of thumb, is that whenever you resolve something from the container, you must release it again. With this in mind, we need have a `ISet<object>` where we can collect our resolved commands. When our controller is disposed, we make sure that be release the things we have used. 
+The implemetation for the our `RavenApiController`is pretty simple. Basically what we do is that we are enabling the developer to resolve the requested command. However we need to pay attention to memory management. The rule of thumb, is that whenever you resolve something from the container we must manually release it again. With this in mind, we need have a `ISet<object>` where we can collect our resolved commands. When our controller is disposed, we make sure that be release the things we have used. 
 
 {% highlight csharp linenos %}
 public class RavenApiController : ApiController
