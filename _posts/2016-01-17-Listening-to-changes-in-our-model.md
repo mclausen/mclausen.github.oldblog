@@ -48,7 +48,6 @@ public void Install(IWindsorContainer container, IConfigurationStore store)
 It's important to note that the our startables service will live outside our unit of work, so make sure to register them as Singletons.
 
 ## Bringing it all together
-
 I've created a little sample that implements the `ForDocumentsInCollection` change listener. As soon as the service starts we'll connect and recieve changes from the RavenDb server. When changes appear they'll show up in our implementation of `IObserver<>`. Her we have the chance to examinating the change and push changes we migth have to the client.
 
 {% highlight csharp linenos %}
