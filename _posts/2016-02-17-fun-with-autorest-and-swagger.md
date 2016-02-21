@@ -12,7 +12,7 @@ roll your own dto convertion logic. But every once in a while you come across pl
 <br />
 Look and behold...
 
-##AutoRest
+## AutoRest
 AutoRest is a tool which can turn swagger documentation into strongly typed clients! For many reasons this is extremely cool. To name a few
 
 * Create clients with a run of a command line tool
@@ -24,7 +24,7 @@ The only thing we have to do is to install Swagger and AutoRest. So fire up your
     `install-package swashbuckle` and
     `Install-Package AutoRest`
 
-###Automation automation automation
+### Automation automation automation
 
 Often when dealing with commands alot, time we'll be spend typing in the arguments, getting the correct syntax, and when you finally run the command it gives your errors... See my point?
 
